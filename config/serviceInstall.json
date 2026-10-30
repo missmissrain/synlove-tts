@@ -1,0 +1,25 @@
+{
+  "defaultService": "tts",
+  "services": {
+    "tts": {
+      "python": [
+        3,
+        12
+      ],
+      "requirements": [
+        "torch==2.9.1",
+        "torchaudio==2.9.1",
+        "qwen-tts==0.1.1",
+        "transformers==4.57.3",
+        "huggingface-hub>=0.34",
+        "numpy>=2.0",
+        "soundfile>=0.13"
+      ],
+      "repo": "https://github.com/breezeblue-ai/breeze-tts.git",
+      "ref": "6eba901d1845353802652c708a4740fdfc5baa75",
+      "directory": "vendor/breeze-tts",
+      "script": "services/breezeTtsService.py",
+      "port": 7862
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "services": {
+    "tts": {
+      "baseURL": "http://127.0.0.1:7862/v1",
+      "management": "external",
+      "model": "breeze",
+      "dialect": "breeze",
+      "timeoutSeconds": 3600,
+      "healthPath": "/health",
+      "apiKeyEnv": "SYNLOVE_TTS_API_KEY",
+      "format": "wav"
+    }
+  }
+}

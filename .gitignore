@@ -1,0 +1,20 @@
+# 运行产物
+runtime/
+*.log
+*.wav
+*.mp3
+
+# 上游推理代码与权重（体积大，自己 clone / 下载）
+breeze-tts/
+breezeTts2/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+.serviceEnvs/
+.venv/
+models/
+vendor/
+node_modules/
